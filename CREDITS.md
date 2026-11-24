@@ -1,0 +1,62 @@
+# اعتبارها
+
+## بافت سیاره‌ها
+
+فایل‌های `public/textures/*.jpg` و `saturn-ring.png` از Solar System Scope، پروانه‌ی CC BY 4.0، سازنده INOVE.
+
+https://www.solarsystemscope.com/textures/
+
+باید نام Solar System Scope و پیوند پروانه بیاید. صفحه‌ی لایسنس همان مجموعه می‌گوید بخشی از سطح‌های نقشه‌نشده با عوارض ساختگی پر شده و رنگ‌ها نسبت به تصویر ناسا تنظیم یا اشباع شده‌اند. بافت خیالی سیاره‌های کوتوله از آن مجموعه استفاده نشده است.
+
+نقشه‌های `io.jpg`، `europa.jpg`، `ganymede.jpg`، `callisto.jpg`، `phobos.jpg` و `deimos.jpg` از نقشه‌های بافت Solar System Simulator در JPL هستند، مالک Caltech/JPL/USGS، ۱۴۴۰ در ۷۲۰. یو نسخه‌ی رنگی از موزاییک گالیله و وویجر است؛ اروپا، گانیمد و کالیستو نسخه‌ی تمیزشده‌ی موزاییک وویجر؛ فوبوس و دیموس خاکستری و از وایکینگ. دامنه‌ی عمومی ناسا.
+
+https://space.jpl.nasa.gov/tmaps/
+
+نقشه‌ی خیالی پلوتون و شارون همان سایت استفاده نشده. برای سرس، هائومئا، ماکی‌ماکی، اریس، شارون، پلوتون و هالی نقشه‌ای با پروانه‌ی روشن در این نسخه نیست و کره‌شان فقط جسم را نشان می‌دهد.
+
+## عددها
+
+برگه‌های Planetary Fact Sheet، دیوید آر. ویلیامز، ناسا، تاریخ دریافت ۲۰۲۶-۱۱-۱۵:
+
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+
+شعاع نامی خورشید از قطعنامه‌ی B3 اتحادیه‌ی بین‌المللی نجوم، ۲۰۱۵. جرم خورشید در داده نیست.
+
+شعاع قمرهای گالیله‌ای از ثابت‌های astronomy-engine.
+
+## مکان و آسمان
+
+astronomy-engine نسخه‌ی ۲٫۱٫۱۹، نوشته‌ی Don Cross، پروانه‌ی MIT.
+
+https://github.com/cosinekitty/astronomy
+
+ستاره‌ها، خط صورت‌های فلکی و فهرست مسیه از پروژه‌ی d3-celestial، اولاف فرون، پروانه‌ی BSD-3-Clause. فایل ستاره برگرفته از پایگاه HYG است. دریافت ۲۰۲۶-۱۱-۱۵.
+
+https://github.com/ofrohn/d3-celestial
+
+نام فارسی صورت‌ها همان فیلد `fa` فایل صورت‌های فلکی است.
+
+## قلم و کتابخانه
+
+Vazirmatn، فایل محلی در `fonts/`.
+
+three.js از npm. Next.js و React از npm. هیچ قلم و بافتی از شبکه‌ی تحویل محتوا بار نمی‌شود.
+
+## عکس ستاره‌ها
+
+فقط فایل‌هایی که تصویرشان با نام ستاره جور بود نگه داشته شده‌اند. چند فایل ویکی‌مدیا با نام ستاره عکس ساختمان، کشتی یا نقاشی بودند و حذف شدند.
+
+- `sirius.jpg`: ناسا / اسا / اچ. باند / ام. بارستو، دامنه‌ی عمومی. File:Sirius A and B Hubble photo.
+- `canopus.jpg`: دامنه‌ی عمومی. File:Canopus.jpg.
+- `altair.jpg`: NASA/JPL/Caltech/Steve Golden، دامنه‌ی عمومی.
+- `betelgeuse.jpg`: ALMA (ESO/NAOJ/NRAO)/E. O’Gorman/P. Kervella، CC BY 4.0. تصویر رادیویی است.
+- `aldebaran.jpg`: NASA, ESA, and STScI، CC BY-SA 4.0.
+- `rigel.jpg`: GellértEde، CC BY-SA 4.0.
+- `pleiades.jpg`: NASA, ESA, AURA/Caltech، دامنه‌ی عمومی.
+- `procyon.jpg`: Giuseppe Donatiello، CC0.
+- `fomalhaut.png`: NASA, ESA, CSA، دامنه‌ی عمومی. ستاره در مرکز پوشانده شده.
+- `acrux.png`: Alain r، CC BY-SA 3.0.
+
+## چه چیزی عکس واقعی نیست
+
+سیاره‌ی شخصی YN-001 b با سایه‌زن ساخته شده و برچسب «سیاره‌ی خیالی» دارد. مدل فضاپیماها بازسازی با کد است. زمینه‌ی ستاره‌ای صفحه‌ی منظومه تزئینی است و کاتالوگ نیست. کاتالوگ واقعی آسمان فقط در صفحه‌ی `/sky/` است.
